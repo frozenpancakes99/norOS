@@ -22,7 +22,11 @@ $(x86_64_asm_object_files): build/x86_64/%.o : source/x86_64/%.asm
 	nasm -f elf64 $(patsubst build/x86_64/%.o, source/x86_64/%.asm, $@) -o $@
 
 .PHONY: kernel
+<<<<<<< HEAD
 kernel: $(kernel_object_files) $(x86_64_object_files)
+=======
+build-x86_64: $(kernel_object_files) $(x86_64_object_files)
+>>>>>>> 3d881f9df0af1527689651ed8d3cf16cde849e9d
 	mkdir -p dist/x86_64 && \
 	x86_64-elf-ld -n -o dist/x86_64/kernel.bin -T targets/x86_64/linker.ld $(kernel_object_files) $(x86_64_object_files) && \
 	cp dist/x86_64/kernel.bin targets/x86_64/iso/boot/kernel.bin && \
