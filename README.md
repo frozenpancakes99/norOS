@@ -1,2 +1,2 @@
 # norOS
-This is my first OS
+my bare-bones kernel. (WIP)
