@@ -1,4 +1,5 @@
 #include "print.h"
+#include "cursor.h"
 
 void main() {
     print_clear();
@@ -7,5 +8,6 @@ void main() {
     print_newline();
     print_set_color(WHITE, BLACK);
     print_str("it works!");
+    disable_cursor();
     
 }
