@@ -2,6 +2,10 @@
 
 void main() {
     print_clear();
-    print_set_color(PRINT_COLOR_YELLOW, PRINT_COLOR_BLACK);
-    print_str("norOS v1.0.0 x64");
+    print_set_color(WHITE, BLACK);
+    print_str("hello");
+    print_newline();
+    print_set_color(WHITE, BLACK);
+    print_str("it works!");
+    
 }

@@ -11,12 +11,12 @@ struct Char {
 struct Char* buffer = (struct Char*)0xb8000;
 size_t col = 0;
 size_t row = 0;
-uint8_t color = PRINT_COLOR_WHITE | PRINT_COLOR_BLACK << 4;
+uint8_t text_color = WHITE | BLACK << 4;  // Renamed to avoid conflict
 
 void clear_row(size_t row) {
     struct Char empty = (struct Char){
-        character: ' ',
-        color : color,
+        .character = ' ',
+        .color = text_color,
     };
 
     for (size_t col = 0; col < NUM_COLS; col++) {
@@ -45,39 +45,41 @@ void print_newline() {
         }
     }
 
-    clear_row(NUM_COLS - 1);
+    clear_row(NUM_ROWS - 1);
 }
 
-void print_char(char character) {
+void printc(char character) {
     if (character == '\n') {
         print_newline();
         return;
     }
 
-    if (col > NUM_COLS) {
+    if (col >= NUM_COLS) {
         print_newline();
     }
 
     buffer[col + NUM_COLS * row] = (struct Char){
-        character: (uint8_t)character,
-        color : color,
+        .character = (uint8_t)character,
+        .color = text_color,
     };
 
     col++;
 }
 
-void print_str(char* str) {
-    for (size_t i = 0; 1; i++) {
-        char character = (uint8_t)str[i];
-
-        if (character == '\0') {
-            return;
-        }
-
-        print_char(character);
+void prints(char* str) {
+    for (size_t i = 0; str[i] != '\0'; i++) {
+        printc(str[i]);
     }
 }
 
+void color(uint8_t foreground, uint8_t background) {
+    text_color = foreground + (background << 4);
+}
+
 void print_set_color(uint8_t foreground, uint8_t background) {
-    color = foreground + (background << 4);
+    color(foreground, background);
+}
+
+void print_str(char* string) {
+    prints(string);
 }
