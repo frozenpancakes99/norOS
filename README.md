@@ -1,2 +1,3 @@
 # norOS
-my bare-bones kernel. (WIP)
+my bare-bones kernel.
+## How to build
