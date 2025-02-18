@@ -21,5 +21,12 @@ void disable_cursor()
 	outb(0x3D4, 0x0A);
 	outb(0x3D5, 0x20);
 }
+void enable_cursor()
+{
+    outb(0x3D4, 0x0A);
+    outb(0x3D5, 0x0E); // Cursor start scanline (typical value)
+    outb(0x3D4, 0x0B);
+    outb(0x3D5, 0x0F); // Cursor end scanline (typical value)
+}
 
 
