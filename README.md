@@ -15,3 +15,13 @@ For building norOS, you need to use Unix like utils. For me, im gonna use WSL
 ```mkdir ~/x86_64-elf-cross```
 
 ```cd ~/x86_64-elf-cross```
+
+#### Step 3. Download sources and extract them
+
+```wget https://ftp.gnu.org/gnu/binutils/binutils-2.41.tar.xz```
+
+```wget https://ftp.gnu.org/gnu/gcc/gcc-13.2.0/gcc-13.2.0.tar.xz```
+
+```tar -xf binutils-2.41.tar.xz```
+
+```tar -xf gcc-13.2.0.tar.xz```
