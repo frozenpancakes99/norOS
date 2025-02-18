@@ -66,4 +66,10 @@ For building norOS, you need to use Unix like utils. For me, im gonna use WSL
 
 ```source ~/.bashrc```
 
+#### Step 6. Generate the ISO
+
+```make kernel```
+
+The ISO will be located at dist/x86_64/kernel.iso
+
 
