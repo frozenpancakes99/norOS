@@ -1,5 +1,5 @@
 # norOS
-![norOS logo](https://github.com/frozenpancakes99/norOS/blob/main/logo.png?raw=true)
+![norOS logo](https://github.com/frozenpancakes99/norOS/blob/main/l.png?raw=true)
 
 my bare-bones kernel.
 ## How to build
