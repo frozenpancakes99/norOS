@@ -1,0 +1,235 @@
+%PDF-1.4
+%“Œ‹ž ReportLab Generated PDF document http://www.reportlab.com
+1 0 obj
+<<
+/F1 2 0 R /F2 3 0 R /F3 4 0 R /F4 5 0 R /F5 6 0 R /F6 7 0 R
+>>
+endobj
+2 0 obj
+<<
+/BaseFont /Helvetica /Encoding /WinAnsiEncoding /Name /F1 /Subtype /Type1 /Type /Font
+>>
+endobj
+3 0 obj
+<<
+/BaseFont /Times-Roman /Encoding /WinAnsiEncoding /Name /F2 /Subtype /Type1 /Type /Font
+>>
+endobj
+4 0 obj
+<<
+/BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding /Name /F3 /Subtype /Type1 /Type /Font
+>>
+endobj
+5 0 obj
+<<
+/BaseFont /Helvetica-Oblique /Encoding /WinAnsiEncoding /Name /F4 /Subtype /Type1 /Type /Font
+>>
+endobj
+6 0 obj
+<<
+/BaseFont /Courier-Bold /Encoding /WinAnsiEncoding /Name /F5 /Subtype /Type1 /Type /Font
+>>
+endobj
+7 0 obj
+<<
+/BaseFont /Courier /Encoding /WinAnsiEncoding /Name /F6 /Subtype /Type1 /Type /Font
+>>
+endobj
+8 0 obj
+<<
+/A <<
+/S /URI /Type /Action /URI (https://google.com)
+>> /Border [ 0 0 0 ] /Rect [ 57.02362 585.8236 121.5036 597.8236 ] /Subtype /Link /Type /Annot
+>>
+endobj
+9 0 obj
+<<
+/Annots [ 8 0 R ] /Contents 13 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 12 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 
+  /Trans <<
+
+>> /Type /Page
+>>
+endobj
+10 0 obj
+<<
+/PageLabels 14 0 R /PageMode /UseNone /Pages 12 0 R /Type /Catalog
+>>
+endobj
+11 0 obj
+<<
+/Author () /CreationDate (D:20250220195706+00'00') /Creator (\(unspecified\)) /Keywords () /ModDate (D:20250220195706+00'00') /Producer (ReportLab PDF Library - www.reportlab.com) 
+  /Subject (\(unspecified\)) /Title (Project Title) /Trapped /False
+>>
+endobj
+12 0 obj
+<<
+/Count 1 /Kids [ 9 0 R ] /Type /Pages
+>>
+endobj
+13 0 obj
+<<
+/Length 1994
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 57.02362 741.0236 cm
+q
+.133333 .133333 .133333 rg
+BT 1 0 0 1 0 4 Tm /F2 20 Tf 24 TL 190.8942 0 Td (Project Title) Tj T* -190.8942 0 Td ET
+Q
+Q
+q
+1 0 0 1 57.02362 693.0236 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (This is a ) Tj /F3 10 Tf (bold) Tj /F1 10 Tf ( word, and this is ) Tj /F4 10 Tf (italic) Tj /F1 10 Tf (.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 647.8236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.941176 .972549 1 rg
+n -6 -6 480.0283 36 re B*
+Q
+q
+.941176 .972549 1 rg
+n 0 12 18 12 re f*
+.941176 .972549 1 rg
+n 24 12 66 12 re f*
+.941176 .972549 1 rg
+n 90 12 18 12 re f*
+.941176 .972549 1 rg
+n 108 12 0 12 re f*
+.941176 .972549 1 rg
+n 24 0 30 12 re f*
+.941176 .972549 1 rg
+n 54 0 6 12 re f*
+.941176 .972549 1 rg
+n 60 0 90 12 re f*
+.941176 .972549 1 rg
+n 150 0 6 12 re f*
+.941176 .972549 1 rg
+n 156 0 0 12 re f*
+BT 1 0 0 1 0 14 Tm 12 TL /F5 10 Tf 0 .501961 0 rg (def) Tj /F6 10 Tf 0 0 0 rg ( ) Tj 0 0 1 rg (hello_world) Tj 0 0 0 rg (\(\):) Tj .733333 .733333 .733333 rg  T* 0 0 0 rg (    ) Tj 0 .501961 0 rg (print) Tj 0 0 0 rg (\() Tj .729412 .129412 .129412 rg ("Hello, World!") Tj 0 0 0 rg (\)) Tj .733333 .733333 .733333 rg  T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 57.02362 633.8236 cm
+Q
+q
+1 0 0 1 57.02362 633.8236 cm
+Q
+q
+1 0 0 1 57.02362 621.8236 cm
+q
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F6 10 Tf 12 TL 8 0 Td (\177) Tj T* -8 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Item 1) Tj T* ET
+Q
+Q
+q
+Q
+Q
+Q
+q
+1 0 0 1 57.02362 615.8236 cm
+Q
+q
+1 0 0 1 57.02362 603.8236 cm
+q
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F6 10 Tf 12 TL 8 0 Td (\177) Tj T* -8 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Item 2) Tj T* ET
+Q
+Q
+q
+Q
+Q
+Q
+q
+1 0 0 1 57.02362 603.8236 cm
+Q
+q
+1 0 0 1 57.02362 585.8236 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 .4 .6 rg (Link to Google) Tj  T* ET
+Q
+Q
+ 
+endstream
+endobj
+14 0 obj
+<<
+/Nums [ 0 15 0 R ]
+>>
+endobj
+15 0 obj
+<<
+/S /D /St 1
+>>
+endobj
+xref
+0 16
+0000000000 65535 f 
+0000000073 00000 n 
+0000000154 00000 n 
+0000000261 00000 n 
+0000000370 00000 n 
+0000000482 00000 n 
+0000000597 00000 n 
+0000000707 00000 n 
+0000000812 00000 n 
+0000000982 00000 n 
+0000001205 00000 n 
+0000001294 00000 n 
+0000001565 00000 n 
+0000001625 00000 n 
+0000003671 00000 n 
+0000003712 00000 n 
+trailer
+<<
+/ID 
+[<e15f377c9c9f28f3d54e76747fa30667><e15f377c9c9f28f3d54e76747fa30667>]
+% ReportLab generated PDF document -- digest (http://www.reportlab.com)
+
+/Info 11 0 R
+/Root 10 0 R
+/Size 16
+>>
+startxref
+3746
+%%EOF

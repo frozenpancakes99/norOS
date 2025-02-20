@@ -1,3 +1,6 @@
+DOCS_DIR := docs
+OUTPUT_DIR := pdf
+
 kernel_source_files := $(shell find source/kernel -name *.c)
 kernel_object_files := $(patsubst source/kernel/%.c, build/kernel/%.o, $(kernel_source_files))
 
@@ -33,3 +36,12 @@ kernel: $(kernel_object_files) $(x86_64_object_files)
 	x86_64-elf-ld -n -o dist/x86_64/kernel.bin -T targets/x86_64/linker.ld $(kernel_object_files) $(x86_64_object_files) && \
 	cp dist/x86_64/kernel.bin targets/x86_64/iso/boot/kernel.bin && \
 	grub-mkrescue /usr/lib/grub/i386-pc -o dist/x86_64/kernel.iso targets/x86_64/iso
+
+.PHONY: pdfdocs
+pdfdocs:
+	@rm -rf $(OUTPUT_DIR)/*.pdf
+	@mkdir -p $(OUTPUT_DIR)
+	@find $(DOCS_DIR) -name '*.rst' | while read file; do \
+		filename=$$(basename $$file .rst); \
+		rst2pdf $$file -o $(OUTPUT_DIR)/$$filename.pdf || exit 1; \
+	done
