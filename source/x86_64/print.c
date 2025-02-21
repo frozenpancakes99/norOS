@@ -13,7 +13,7 @@ size_t col = 0;
 size_t row = 0;
 uint8_t text_color = WHITE | BLACK << 4;  // Renamed to avoid conflict
 
-void clear_row(size_t row) {
+void clearr(size_t row) {
     struct Char empty = (struct Char){
         .character = ' ',
         .color = text_color,
@@ -24,13 +24,13 @@ void clear_row(size_t row) {
     }
 }
 
-void print_clear() {
+void clear() {
     for (size_t i = 0; i < NUM_ROWS; i++) {
-        clear_row(i);
+        clearr(i);
     }
 }
 
-void print_newline() {
+void nline() {
     col = 0;
 
     if (row < NUM_ROWS - 1) {
@@ -45,17 +45,17 @@ void print_newline() {
         }
     }
 
-    clear_row(NUM_ROWS - 1);
+    clearr(NUM_ROWS - 1);
 }
 
 void printc(char character) {
     if (character == '\n') {
-        print_newline();
+        nline();
         return;
     }
 
     if (col >= NUM_COLS) {
-        print_newline();
+        nline();
     }
 
     buffer[col + NUM_COLS * row] = (struct Char){
@@ -76,10 +76,38 @@ void color(uint8_t foreground, uint8_t background) {
     text_color = foreground + (background << 4);
 }
 
-void print_set_color(uint8_t foreground, uint8_t background) {
-    color(foreground, background);
-}
-
-void print_str(char* string) {
-    prints(string);
+void palette() {
+    color(BLUE, BLUE);
+    printc(" ");
+    color(GREEN, GREEN);
+    printc(" ");
+    color(CYAN, CYAN);
+    printc(" ");
+    color(RED, RED);
+    printc(" ");
+    color(MAGENTA, MAGENTA);
+    printc(" ");
+    color(BROWN, BROWN);
+    printc(" ");
+    color(LIGHT_GRAY, LIGHT_GRAY);
+    printc(" ");
+    color(DARK_GRAY, DARK_GRAY);
+    printc(" ");
+    color(RED, RED);
+    printc(" ");
+    color(LIGHT_BLUE, LIGHT_BLUE);
+    printc(" ");
+    color(LIGHT_GREEN, LIGHT_GREEN);
+    printc(" ");
+    color(LIGHT_CYAN, LIGHT_CYAN);
+    printc(" ");
+    color(LIGHT_RED, LIGHT_RED);
+    printc(" ");
+    color(PINK, PINK);
+    printc(" ");
+    color(YELLOW, YELLOW);
+    printc(" ");
+    color(WHITE, WHITE);
+    printc(" ");
+    nline();
 }

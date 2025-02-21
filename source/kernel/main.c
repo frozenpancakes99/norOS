@@ -2,21 +2,26 @@
 #include "cursor.h"
 
 void main() {
-    print_clear();
-    print_set_color(WHITE, BLACK);
-    print_str("welcome to norOS!");
-    print_newline();
-    print_str("running norOS kernel v0.0.1");
-    print_newline();
-    print_newline();
-    print_set_color(YELLOW, BLACK);
-    print_str("(!) to install norOS, try running ");
-    print_set_color(LIGHT_BLUE, BLACK);
-    print_str("installer");
-    print_newline();
-    print_set_color(LIGHT_RED, BLACK);
-    print_str("root");
-    print_set_color(WHITE, BLACK);
-    print_str("@norOS #");
-    cupdate(13, 4);
+    clear();
+    color(WHITE, BLACK);
+    prints("welcome to norOS!");
+    nline();
+    prints("running norOS kernel v0.0.1");
+    nline();
+    nline();
+    color(YELLOW, BLACK);
+    prints("(!) to install norOS, try running ");
+    color(LIGHT_BLUE, BLACK);
+    prints("installer");
+    nline();
+    color(LIGHT_RED, BLACK);
+    prints("welcome to norOS!");
+    nline();
+    palette();
+    nline();
+    color(LIGHT_RED, BLACK);
+    prints("root");
+    color(WHITE, BLACK);
+    prints("@norOS #");
+    cupdate(13, 7);
 }

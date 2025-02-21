@@ -26,3 +26,6 @@ void clear();
 void printc(char character);
 void prints(char* string);
 void color(uint8_t foreground, uint8_t background);
+void clearr(size_t row);
+void nline();
+void palette();
