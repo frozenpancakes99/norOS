@@ -69,16 +69,12 @@ For building norOS, you need to use Unix like utils. For me, im gonna use WSL
 
 #### Step 6. Generate the ISO
 
+You need to cd into the project directory
+
 ```make kernel```
 
 You will get the final ISO at \dist\x86_64\kernel.iso
 
-
-#### Step 6. Build the OS
-
-```make kernel```
-
-You will get the final ISO at \norOS\dist\x86_64\kernel.iso
 
 ### Making PDF documentation
 
