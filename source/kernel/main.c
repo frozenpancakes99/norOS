@@ -10,9 +10,13 @@ void main() {
     print_newline();
     print_newline();
     print_set_color(YELLOW, BLACK);
-    print_str("(!) you've got a new notification! run mail to check all notifications");
+    print_str("(!) to install norOS, try running ");
+    print_set_color(LIGHT_BLUE, BLACK);
+    print_str("installer");
     print_newline();
-    print_set_color(LIGHT_GREEN, BLACK);
-    print_str("root$ >");
-    cupdate(7, 4);
+    print_set_color(LIGHT_RED, BLACK);
+    print_str("root");
+    print_set_color(WHITE, BLACK);
+    print_str("@norOS #");
+    cupdate(13, 4);
 }
