@@ -79,3 +79,7 @@ You will get the final ISO at \dist\x86_64\kernel.iso
 ```make kernel```
 
 You will get the final ISO at \norOS\dist\x86_64\kernel.iso
+
+### Making PDF documentation
+
+```make pdfdocs```
