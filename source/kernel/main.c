@@ -1,5 +1,6 @@
 #include "print.h"
 #include "cursor.h"
+#include "io.h"
 
 void main() {
     clear();
