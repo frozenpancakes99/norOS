@@ -2,6 +2,8 @@
     "files.associations": {
         "stdint.h": "c",
         "pic.h": "c",
-        "print.h": "c"
+        "print.h": "c",
+        "stdarg.h": "c",
+        "panic.h": "c"
     }
 }

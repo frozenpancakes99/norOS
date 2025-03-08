@@ -1,7 +1,17 @@
+char* version = "1.0 x86_64\n";
+char* currentuser = "root";
+
 #include "print.h"
-#include "cursor.h"
-#include "io.h"
+#include "panic.h"
 
 void main() {
-    // todo, add a print thing
+    print("norOS kernel");
+    print(version);
+    color(YELLOW, BLACK);
+    print("new login at ");
+    print(currentuser);
+    color(WHITE, BLACK);
+    newline();
+    print("# ");
+    cursorlocation();
 }
