@@ -1,6 +1,9 @@
 ![norOS logo](https://github.com/frozenpancakes99/norOS/blob/main/l.png?raw=true)
 
 my bare-bones OS.
+
+# PLANNED FOR REWORK
+
 ## How to build
 ### Building GCC cross compiler
 For building norOS, you need to use Unix like utils. For me, im gonna use WSL
